@@ -9,11 +9,11 @@ namespace Program
             var car1 = new Car(2018, 544);
             var car2 = new Car("Red", 1969);
         
-            Console.WriteLine($"Car 1 is a {car1.Year} and only has {car1.Mileage} miles on it");
-            Console.WriteLine($"Car 2 is {car2.Color} and is was made in {car2.Year}");
+            Console.WriteLine($"Car 1 is a {car1.Year} and only has {car1.Mileage} miles on it.");
+            Console.WriteLine($"Car 2 is {car2.Color} and is was made in {car2.Year}.");
 
             int count = Car.CountCars();
-            Console.WriteLine($"There are {count} cars on the lot");
+            Console.WriteLine($"There are {count} cars on the lot.");
 
         }
     }
