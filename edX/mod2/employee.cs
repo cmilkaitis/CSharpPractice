@@ -1,7 +1,7 @@
 using System;
 namespace Mod2_Lab1
 {
-    public class Employee
+    abstract class Employee
     {
         // private variables
         private string employeeName;
@@ -43,7 +43,7 @@ namespace Mod2_Lab1
             return this.ID + " " + this.Name;
         }
 
-        public virtual String employeeStatus()
+        public abstract String employeeStatus()
         {
             return toString() + " is in the company's system";
         }
